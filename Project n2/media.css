@@ -1,0 +1,40 @@
+
+
+/* for desktop view  */
+@media (min-width: 992px){
+
+}
+
+/* for laptop view  */
+@media (min-width: 768px) {
+  .mid{
+	display: flex;
+	justify-content: center;
+}
+}
+
+/* for tablet view  */
+@media (min-width: 576px){
+    .mid{
+	width: 330px;
+  }
+
+}
+
+/* for mobile view  */
+@media (max-width: 575px){
+	 .first-text h1{
+	font-size:6vw;
+  }
+  .first-text p{
+	font-size: 3.5vw;
+  }
+  .mid{
+	width: 230px;
+  }
+	
+  }
+
+
+  
+
